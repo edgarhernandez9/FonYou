@@ -27,3 +27,6 @@ jobs:
         npm install
         npm install webpack-cli
         npx webpack
+
+    - name: Start Development Server
+      run: npm start
